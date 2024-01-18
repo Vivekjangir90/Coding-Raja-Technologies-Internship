@@ -159,5 +159,7 @@ recommend('Ramanujan')
 
 recommend('Gandhi')
 
-
+import pickle
+pickle.dump(movie_tags,open('movie_list.pkl','wb'))
+pickle.dump(cosine_sim,open('similarity.pkl','wb'))
 
